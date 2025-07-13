@@ -4,6 +4,11 @@ import "./Cocktails.css";
 const Cocktails = () => {
   return (
     <section className="cocktails">
+
+      <div className="cock-leafs">
+        <img src="/images/cocktail-left-leaf.png" alt="" className="l-leaf"/>
+        <img src="/images/cocktail-right-leaf.png" alt="" className="r-leaf"/>
+      </div>
       
       <div class="menu-container">
 
@@ -86,6 +91,7 @@ const Cocktails = () => {
 
 
       </div>
+
       
     </section>
   )

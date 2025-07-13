@@ -70,20 +70,26 @@ const Hero = () => {
   return (
     <>
     <section className="hero">
+              <h1>MOJITO</h1>
         <div className="hero-images">
+
           <img src="/images/hero-left-leaf.png" alt="" className="img-left"/>
+          <img src="/images/hero-right-leaf.png" alt="" className="img-right"/>
+
           <div className="hero-content">
-            <h1>MOJITO</h1>
+
             <div className="hero-line">
               <div className="line">
                 <p className="hero-subtitle">Cool. Crisp. Classic</p>
                 <p className="hero-description hero-split">Sip the Spirit <br /> of Summer</p>
               </div>
-              <div className="hero-split"><p>Every cocktail on our menu is <br />a blend of premium ingredients, <br />creative flair, and timeless recipes <br /> - designed to delite your senses</p></div>
+              <div className="hero-split"><p>Every cocktail on our menu is <br />a blend of premium ingredients, <br />creative flair, and timeless recipes <br /> - designed to delite your senses</p>
+                  <a href="cock" className="cocktail">View Cocktails</a>
+              </div>
             </div>
-            <a href="cock" className="cocktail">View Cocktails</a>
+          
           </div>
-          <img src="/images/hero-right-leaf.png" alt="" className="img-right"/>
+          
         </div>
         <div className="video">
           <video ref={videoRef} src="/videos/output.mp4" playsInline muted preload="auto"></video>
