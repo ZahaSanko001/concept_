@@ -39,8 +39,8 @@ const Hero = () => {
           scrub: 1,
         }
       })
-      .to('.img-left', { y: 500 }, 0)
-      .to('.img-right', { y: -500 }, 0)
+      .to('.img-left', { y: 200 }, 0)
+      .to('.img-right', { y: -200 }, 0)
 
 
 

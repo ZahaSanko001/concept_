@@ -7,7 +7,7 @@ import Cocktails from "./components/Cocktails/Cocktails"
 const App = () => {
   return (
     <main>
-      <img src="/images/noise.png" alt="" className="noise"/>
+      <img  className="noise" src="/images/noise.png" alt=""/>
       <Navbar/>
       <Hero/>
       <Cocktails/>
